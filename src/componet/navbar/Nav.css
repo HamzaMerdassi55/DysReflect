@@ -1,0 +1,63 @@
+.navbar-container {
+  width: 100%;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 10px 20px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo-img {
+  height: 60px;
+  cursor: pointer;
+}
+
+.nav-buttons {
+  display: flex;
+  align-items: center;
+}
+
+.nav__right p {
+  font-weight: 500;
+  color: #0a2b1e;
+  font-size: 1.1rem;
+  margin-right: 20px;
+}
+
+.nav__right p i {
+  font-size: 1.3rem;
+}
+
+.nav-button {
+  border-radius: 5px;
+  padding: 10px 20px;
+  margin-left: 10px;
+  font-weight: bold;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.register-button {
+  background-color: #dfdf29;
+}
+
+.login-button {
+  background-color: #dfdf29;
+}
+
+.nav-button:hover {
+  opacity: 0.8;
+}
